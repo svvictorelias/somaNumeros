@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.76);
+}
+section input{
+    padding: 5px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+#analise{
+    margin-top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
